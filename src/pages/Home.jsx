@@ -17,9 +17,7 @@ function Home() {
 
   <div className="hero-overlay">
     <div className="hero-left">
-      <p className="hero-tag">
-  ESTABLISHED 1965 • THREE GENERATIONS OF CRAFTSMANSHIP
-</p>
+  
       <h1>
         VONDWE WOODWORK &
         <br />
@@ -39,20 +37,7 @@ function Home() {
       
     </div>
 
-    <div className="hero-right">
-      <h2>THREE GENERATIONS OF EXCELLENCE</h2>
-
-      <p>
-        Founded by Mr. Josias Nenweli Makungo in 1965, Vondwe Woodwork &
-        Joinery has become a trusted name in custom furniture, kitchens,
-        cupboards, doors, and bespoke joinery solutions.
-      </p>
-
-      <p>
-        Today, we continue to combine traditional craftsmanship with modern
-        innovation, delivering quality work that stands the test of time.
-      </p>
-    </div>
+    
   </div>
 </section>
 

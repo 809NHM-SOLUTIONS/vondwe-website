@@ -32,11 +32,30 @@ body {
   height: 100px;
   width: 240px;
   object-fit: contain;
+  display: block;
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  filter: none;
+  transition: transform 0.3s ease;
 }
 
 .navbar-logo:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
 }
+
+.navbar > a {
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+
 
 
 .logo {
@@ -70,44 +89,67 @@ body {
   padding-bottom: 5px;
 }
 
+t {
+  max-width: 850px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
 /* HERO */
 .hero {
-  min-height: calc(100vh - 90px);
+  height: calc(100vh - 100px);
   width: 100%;
   background-size: cover;
-  background-position: center center;
+  background-position: center;
   background-repeat: no-repeat;
+  background-color: #2f2b2a;
 }
 
 .hero-overlay {
-  min-height: calc(100vh - 100px);
+  height: 100%;
   width: 100%;
-  background: rgba(25, 24, 24, 0.55);
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  background: rgba(31, 28, 27, 0.45);
+  display: flex;
   align-items: center;
+  justify-content: center;
+  text-align: center;
   padding: 0 7%;
-  gap: 20px;
 }
 
 .hero-left {
-  max-width: 550px;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .hero-left h1 {
   color: #d8b89f;
-  font-size: 52px;
-  line-height: 1.15;
-  letter-spacing: 3px;
-  margin-bottom: 18px;
+  font-size: clamp(3.5rem, 6vw, 5.8rem);
+  line-height: 1.05;
+  letter-spacing: 4px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  text-shadow: 0 5px 18px rgba(0, 0, 0, 0.75);
 }
 
 .hero-left p {
+  max-width: 720px;
   color: #f5f0eb;
-  font-size: 20px;
-  max-width: 650px;
-  line-height: 1.6;
-  margin-bottom: 15px;
+  font-size: 19px;
+  line-height: 1.7;
+  font-weight: 600;
+  margin-bottom: 35px;
+  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.95);
+}
+
+.hero-btn-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  transform: none;
 }
 
 .hero-btn {
@@ -121,7 +163,7 @@ body {
   letter-spacing: 2px;
   font-size: 15px;
   border-radius: 4px;
-  border: 1px solid transparent;
+  border: 1px solid #d8b89f;
   transition: all 0.3s ease;
 }
 
@@ -132,73 +174,8 @@ body {
   transform: translateY(-3px);
 }
 
-.hero-btn:hover {
-  background: #e7d3c2;
-  transform: translateY(-2px);
-}
-
-.hero-btn-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 0;
-  transform: translateX(120px) translateY(-15px);
-}
 
 
-/* Remove old right hero styling */
-.hero-right {
-  display: block;
-  max-width: 580px;
-  margin-left: auto;
-}
-
-.hero-left h1 {
-  color: #d8b89f;
-  font-size: 60px;
-  line-height: 1.15;
-  letter-spacing: 3px;
-  margin-bottom: 18px;
-}
-
-.hero-right h2 {
-  color: #d8b89f;
-  font-size: 54px;
-  line-height: 1.15;
-  letter-spacing: 3px;
-  margin-bottom: 18px;
-}
-
-.hero-right p {
-  color: #f5f0eb;
-  font-size: 17px;
-  line-height: 1.8;
-  margin-bottom: 20px;
-}
-
-.hero-tag {
-  color: #d8b89f;
-  font-size: 15px;
-  font-style: italic;
-  font-weight: 400;
-  letter-spacing: 1.5px;
-  line-height: 1.8;
-  margin-bottom: 20px;
-  opacity: 0.95;
-}
-
-.hero-left,
-.hero-right {
-  animation: fadeInUp 1s ease;
-}
-
-.hero-tag::after {
-  content: "";
-  display: block;
-  width: 120px;
-  height: 1px;
-  background: #d8b89f;
-  margin-top: 15px;
-}
 
 @keyframes fadeInUp {
   from {
