@@ -1,5 +1,6 @@
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import { FaTiktok, FaWhatsapp } from "react-icons/fa6";
 
 function Contact() {
   const form = useRef();
@@ -42,27 +43,41 @@ function Contact() {
           <h2>Get In Touch</h2>
 
           <div className="contact-item">
-  <h3>Phone</h3>
-  <p>070 301 3274</p>
-</div>
-
-<div className="contact-item">
-  <h3>Email</h3>
-  <p>velemakungo@gmail.com</p>
-</div>
+            <h3>Phone & WhatsApp</h3>
+            <p>+27 70 301 3274</p>
+          </div>
 
           <div className="contact-item">
-            <h3>Location</h3>
-            <p>31 Sturdee Street, eMalahleni, 1035</p>
+            <h3>Email</h3>
+            <p>velemakungo@gmail.com</p>
+          </div>
+
+          <div className="contact-item">
+            <h3>Business Address</h3>
+            <p>
+              Number 16 R 523 Road <br />
+              Vondwe Village, Vhembe <br />
+              Limpopo, 0972
+            </p>
           </div>
 
           <div className="contact-socials">
-            <a href="https://www.instagram.com/senzo_mntungwa/" target="_blank" rel="noreferrer">
-              Instagram
+            <a
+              href="https://wa.me/27703013274"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="WhatsApp"
+            >
+              <FaWhatsapp />
             </a>
 
-            <a href="https://vm.tiktok.com/ZSJpUdBud/" target="_blank" rel="noreferrer">
-              TikTok
+            <a
+              href="https://www.tiktok.com/@vondwe.woodwork.j5"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="TikTok"
+            >
+              <FaTiktok />
             </a>
           </div>
         </div>

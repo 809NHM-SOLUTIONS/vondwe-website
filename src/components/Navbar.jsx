@@ -17,8 +17,8 @@ function Navbar() {
         <Link to="/about">About</Link>
         <Link to="/services">Services</Link>
         <Link to="/projects">Projects</Link>
-        <Link to="/gallery">Gallery</Link>
-        <Link to="/legacy">Legacy</Link>
+   
+        
         <Link to="/testimonials">Testimonials</Link>
         <Link to="/contact">Contact</Link>
       </div>

@@ -18,11 +18,7 @@ function Home() {
   <div className="hero-overlay">
     <div className="hero-left">
   
-      <h1>
-        VONDWE WOODWORK &
-        <br />
-        JOINERY CORPORATE
-      </h1>
+      <h1>VONDWE WOODWORK &amp; JOINERY</h1>
 
       <p>
         Building a legacy of quality craftsmanship, custom woodwork, and
@@ -67,10 +63,10 @@ function Home() {
             <p>YEARS OF EXPERIENCE</p>
           </div>
 
-          <div className="stat">
-            <h3>THREE</h3>
-            <p>GENERATIONS STRONG</p>
-          </div>
+<div className="stat">
+  <h3>QUALITY</h3>
+  <p>CRAFTED TO LAST</p>
+</div>
         </div>
       </section>
 
@@ -81,7 +77,7 @@ function Home() {
         <h2>Craftsmanship Built on Quality and Trust</h2>
 
         <p>
-          Vondwe Woodwork & Joinery Corporate is a proudly South African
+          Vondwe Woodwork & Joinery  is a proudly South African
           woodworking company built on a foundation of craftsmanship, integrity,
           and excellence. Since 1965, we have delivered custom woodwork
           solutions that combine traditional skills with modern innovation.
@@ -172,7 +168,7 @@ function Home() {
         <h2>Ready To Start Your Project?</h2>
 
         <p>
-          Contact Vondwe Woodwork & Joinery Corporate today and let us bring
+          Contact Vondwe Woodwork & Joinery  today and let us bring
           your vision to life.
         </p>
 

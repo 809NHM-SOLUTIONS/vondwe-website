@@ -5,6 +5,32 @@ import SchoolDesk2 from "../Images/Projects/school-desk2.png";
 import TableAndChairs from "../Images/Projects/table-and-chairs.jpg";
 import BarnDoorsGallery from "../Images/Projects/vondwe-barn-doors-gallery.png";
 
+import Headboard from "../Images/Gallery/luxury cream and coffee brown headboard w table.png";
+import Pulpit from "../Images/Gallery/pulpit worshp.png";
+import BedBase from "../Images/Gallery/queen size green head wood base w tables workshop.png";
+import BarStools from "../Images/Gallery/red stool bar workshop.png";
+import Kitchen from "../Images/Gallery/red velvet stools, kitchen.png";
+import DisplayCabinet from "../Images/Gallery/whiteliquor displaycabinet dining room.png";
+import StoolBar from "../Images/Gallery/stool bar.png";
+import VintageBarTable from "../Images/Gallery/vintage bar stoll and vin table.png";
+import VintageBarTable2 from "../Images/Gallery/vintage bar stool and vin table 2.png";
+import EyeStandDisplay from "../Images/Gallery/eyestand in shop display.png";
+import FittedLiquorDisplay from "../Images/Gallery/fitted liquor display.png";
+import FloatingTvStand from "../Images/Gallery/floating tv stand lounge.png";
+import GreyChestDrawer from "../Images/Gallery/grey chest of drawer 2.png";
+import GreyChestDrawerWorkshop from "../Images/Gallery/grey chest of drawer workshop.png";
+import LongWoodTvCabinet from "../Images/Gallery/long wood tv cabinet longe workshop.png";
+import LongWoodTvCabinetLounge from "../Images/Gallery/long wood tv cabinet longe.png";
+import BlueCreamHeadboard from "../Images/Gallery/luxury blue and cream headboard.png";
+import CreamCoffeeHeadboardBedroom from "../Images/Gallery/luxury cream and coffee brown headboard w table bedroom.png";
+import CommercialReceptionBench from "../Images/Gallery/commercial reception bench.png";
+import DiningSetLounge from "../Images/Gallery/dining set in lounge.png";
+import ElegantLiquorDisplay from "../Images/Gallery/elegant liquor display.png";
+import WhiteShelveWardrobe from "../Images/Gallery/white front shelve wardrobe.png";
+import VintageCoffeeTable2 from "../Images/Gallery/vintage coffe table 2.png";
+import BathroomHolder from "../Images/Gallery/bathroomholder.png";
+import BlackOpenPlanCloset from "../Images/Gallery/black open plan closet.png";
+
 function Projects() {
   const projects = [
     {
@@ -49,6 +75,136 @@ function Projects() {
       description:
         "Stylish wooden barn doors crafted with precision, durability, and timeless character.",
     },
+{
+  title: "Wooden Bar Stool",
+  category: "Custom Furniture",
+  image: StoolBar,
+},
+{
+  title: "Vintage Bar Table and Stools",
+  category: "Custom Furniture",
+  image: VintageBarTable,
+},
+{
+  title: "Vintage Bar Table Set",
+  category: "Custom Furniture",
+  image: VintageBarTable2,
+},
+
+  ];
+
+  const galleryItems = [
+    {
+      title: "Luxury Headboard",
+      category: "Bedroom Furniture",
+      image: Headboard,
+    },
+    {
+      title: "Church Pulpit",
+      category: "Church Furniture",
+      image: Pulpit,
+    },
+    {
+      title: "Queen Bed Base",
+      category: "Bedroom Furniture",
+      image: BedBase,
+    },
+    {
+      title: "Bar Stools",
+      category: "Custom Furniture",
+      image: BarStools,
+    },
+    {
+      title: "Kitchen Stools",
+      category: "Kitchen Work",
+      image: Kitchen,
+    },
+    {
+      title: "Display Cabinet",
+      category: "Custom Furniture",
+      image: DisplayCabinet,
+    },
+{
+  title: "Eyestand Shop Display",
+  category: "Display Furniture",
+  image: EyeStandDisplay,
+},
+{
+  title: "Fitted Liquor Display",
+  category: "Display Furniture",
+  image: FittedLiquorDisplay,
+},
+{
+  title: "Floating TV Stand",
+  category: "Living Room Furniture",
+  image: FloatingTvStand,
+},
+
+{
+  title: "Grey Chest of Drawers",
+  category: "Bedroom Furniture",
+  image: GreyChestDrawer,
+},
+{
+  title: "Grey Chest of Drawers",
+  category: "Bedroom Furniture",
+  image: GreyChestDrawerWorkshop,
+},
+{
+  title: "Long Wooden TV Cabinet",
+  category: "Living Room Furniture",
+  image: LongWoodTvCabinet,
+},
+{
+  title: "Long Wooden TV Cabinet",
+  category: "Living Room Furniture",
+  image: LongWoodTvCabinetLounge,
+},
+{
+  title: "Luxury Blue and Cream Headboard",
+  category: "Bedroom Furniture",
+  image: BlueCreamHeadboard,
+},
+{
+  title: "Luxury Cream and Coffee Headboard",
+  category: "Bedroom Furniture",
+  image: CreamCoffeeHeadboardBedroom,
+},
+{
+  title: "Commercial Reception Bench",
+  category: "Commercial Furniture",
+  image: CommercialReceptionBench,
+},
+{
+  title: "Dining Set",
+  category: "Dining Room Furniture",
+  image: DiningSetLounge,
+},
+{
+  title: "Elegant Liquor Display",
+  category: "Display Furniture",
+  image: ElegantLiquorDisplay,
+},
+
+{
+  title: "White Shelved Wardrobe",
+  category: "Bedroom Furniture",
+  image: WhiteShelveWardrobe,
+},
+{
+  title: "Vintage Coffee Table",
+  category: "Living Room Furniture",
+  image: VintageCoffeeTable2,
+},
+{
+  title: "Bathroom Holder",
+  category: "Bathroom Furniture",
+  image: BathroomHolder,
+},
+
+
+
+
   ];
 
   return (
@@ -82,30 +238,72 @@ function Projects() {
           </div>
         ))}
       </section>
+<section className="premium-project">
+  <img
+    src={BlackOpenPlanCloset}
+    alt="Custom open plan wooden closet"
+    className="premium-project-image"
+  />
 
-      <section className="featured-project">
-        <div
-          className="featured-project-img"
-          style={{
-            backgroundImage: `linear-gradient(rgba(35, 34, 34, 0.2), rgba(35, 34, 34, 0.2)), url(${LuxuryHeadboards})`,
-          }}
-        ></div>
+  <div className="premium-project-overlay"></div>
 
-        <div className="featured-project-text">
-          <h2>Quality Craftsmanship in Every Project</h2>
+  <div className="premium-project-content">
+    <p className="premium-small-title">OUR CRAFTSMANSHIP</p>
 
+    <h2>
+      Built with Skill.
+      <br />
+      Made to Last.
+    </h2>
+
+    <p className="premium-description">
+      From custom wardrobes to luxury bedroom finishes, every piece is built
+      with careful detail, strong materials, and timeless workmanship.
+    </p>
+
+    
+  </div>
+</section>
+
+      <section className="project-gallery-section">
+        <div className="project-gallery-heading">
+          <p className="small-title">PROJECT GALLERY</p>
+          <h2>More of Our Work</h2>
           <p>
-            Every project we complete reflects our commitment to strong
-            materials, neat finishing, and reliable workmanship. From custom
-            bedroom furniture to doors, tables, benches, and school furniture,
-            we build pieces that are made to last.
+            Explore more completed woodwork and joinery pieces, showcasing our
+            attention to detail, strong materials, and quality finishing.
           </p>
+        </div>
 
-          <a href="/contact" className="hero-btn">
-            START YOUR PROJECT
-          </a>
+        <div className="gallery-grid">
+          {galleryItems.map((project) => (
+            <div className="gallery-card" key={project.title}>
+              <img src={project.image} alt={project.title} />
+
+              <div className="gallery-card-content">
+                <p>{project.category}</p>
+                <h2>{project.title}</h2>
+              </div>
+            </div>
+          ))}
         </div>
       </section>
+
+<section className="gallery-bottom-cta">
+  <p>READY TO CREATE SOMETHING UNIQUE?</p>
+
+  <h2>Let’s Bring Your Vision to Life</h2>
+
+  <span>
+    From custom furniture to complete woodwork projects, we are ready to build
+    something made especially for you.
+  </span>
+
+  <a href="/contact" className="hero-btn">
+    START YOUR PROJECT
+  </a>
+</section>
+
     </main>
   );
 }
