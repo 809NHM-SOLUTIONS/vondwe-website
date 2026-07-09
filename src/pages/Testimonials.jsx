@@ -1,3 +1,6 @@
+import "./Testimonials.css";
+
+
 function Testimonials() {
   const testimonials = [
     {

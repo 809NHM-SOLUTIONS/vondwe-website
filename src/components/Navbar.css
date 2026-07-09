@@ -1,0 +1,140 @@
+/* =========================
+   NAVBAR
+========================= */
+
+.navbar {
+  width: 100%;
+  height: 100px;
+  background: transparent;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 5% 0 1%;
+
+  position: relative;
+  z-index: 1000;
+}
+
+/* =========================
+   LOGO
+========================= */
+
+.navbar-logo {
+  height: 100px;
+  width: 240px;
+  object-fit: contain;
+  display: block;
+
+  background: transparent;
+  padding: 0;
+  margin: 0;
+
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  filter: none;
+
+  transition: transform 0.3s ease;
+}
+
+.navbar-logo:hover {
+  transform: scale(1.03);
+}
+
+.navbar > a {
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+/* =========================
+   NAVIGATION LINKS
+========================= */
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.nav-links a {
+  position: relative;
+
+  color: #111111;
+  text-decoration: none;
+
+  font-size: 16px;
+  font-weight: 600;
+
+  padding-bottom: 7px;
+
+  transition: color 0.3s ease;
+}
+
+/* LINE UNDER NAV LINK */
+
+.nav-links a::after {
+  content: "";
+  position: absolute;
+
+  left: 0;
+  bottom: 0;
+
+  width: 0;
+  height: 2px;
+
+  background: #23300c;
+
+  transition: width 0.3s ease;
+}
+
+/* SHOW LINE ON HOVER */
+
+.nav-links a:hover {
+  color: #23300c;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 900px) {
+  .navbar {
+    padding: 0 3%;
+  }
+
+  .navbar-logo {
+    width: 190px;
+  }
+
+  .nav-links {
+    gap: 18px;
+  }
+
+  .nav-links a {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 950px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 25px;
+    gap: 20px;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+}

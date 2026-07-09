@@ -4,6 +4,7 @@ import BedBase from "../Images/Gallery/queen size green head wood base w tables 
 import BarStools from "../Images/Gallery/red stool bar workshop.png";
 import Kitchen from "../Images/Gallery/red velvet stools, kitchen.png";
 import DisplayCabinet from "../Images/Gallery/whiteliquor displaycabinet dining room.png";
+import "./Gallery.css";
 
 
 function Gallery() {

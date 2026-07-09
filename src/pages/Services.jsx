@@ -4,9 +4,7 @@ import HeadboardBedYellow from "../Images/Services/headboard-bed-yellow.png";
 import HeadboardSideTables from "../Images/Services/headboard-side-tables.png";
 import KitchenCabinets1 from "../Images/Services/kitchen-cabinets-1.png";
 import { Link } from "react-router-dom";
-
-
-
+import "./Services.css";
 
 
 

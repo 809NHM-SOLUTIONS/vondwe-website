@@ -30,6 +30,7 @@ import WhiteShelveWardrobe from "../Images/Gallery/white front shelve wardrobe.p
 import VintageCoffeeTable2 from "../Images/Gallery/vintage coffe table 2.png";
 import BathroomHolder from "../Images/Gallery/bathroomholder.png";
 import BlackOpenPlanCloset from "../Images/Gallery/black open plan closet.png";
+import "./Projects.css";
 
 function Projects() {
   const projects = [

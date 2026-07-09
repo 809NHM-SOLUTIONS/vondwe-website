@@ -1,0 +1,131 @@
+/* =========================
+   ABOUT PAGE
+========================= */
+
+.about-page {
+  background: #f5f0eb;
+}
+
+.about-hero {
+  padding: 110px 7%;
+  text-align: center;
+  background: #f5f0eb;
+}
+
+.about-hero h1 {
+  color: #23300c;
+  font-size: 52px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+.about-hero p {
+  max-width: 850px;
+  margin: auto;
+  line-height: 1.8;
+  color: #23300c;
+}
+
+.about-story {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  padding: 90px 7%;
+  align-items: center;
+}
+
+.about-story-text h2 {
+  color: #23300c;
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+.about-story-text p {
+  color: #23300c;
+  line-height: 1.8;
+  margin-bottom: 18px;
+}
+
+.about-image {
+  min-height: 420px;
+  background:
+    linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)),
+    url("https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=1200&q=80");
+  background-size: cover;
+  background-position: center;
+}
+
+.about-values {
+  padding: 80px 7%;
+  background: #f5f0eb;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.about-values div {
+  border: 1px solid rgba(0, 0, 0, 0.22);
+  padding: 35px;
+  background: rgba(0, 0, 0, 0.06);
+}
+
+.about-values h3 {
+  color: #23300c;
+  font-size: 28px;
+  margin-bottom: 18px;
+}
+
+.about-values p {
+  color: #23300c;
+  line-height: 1.8;
+}
+
+.about-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-founder-image {
+  width: 100%;
+  max-width: 500px;
+  height: 500px;
+  object-fit: cover;
+  border: 4px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+.about-founder-image:hover {
+  transform: scale(1.02);
+  transition: 0.3s ease;
+}
+
+.founder-name {
+  color: #23300c;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+.founder-title {
+  text-align: center;
+  color: #23300c;
+  margin-top: 8px;
+  letter-spacing: 1px;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 950px) {
+  .about-story,
+  .about-values {
+    grid-template-columns: 1fr;
+  }
+
+  .about-hero h1 {
+    font-size: 36px;
+  }
+}

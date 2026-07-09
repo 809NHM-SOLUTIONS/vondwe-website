@@ -1,0 +1,169 @@
+/* =========================
+   CONTACT PAGE
+========================= */
+
+.contact-page {
+  background: #f5f0eb;
+}
+
+.contact-hero {
+  text-align: center;
+  padding: 110px 7%;
+  background: #f5f0eb;
+}
+
+.contact-hero h1 {
+  color: #23300c;
+  font-size: 52px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+.contact-hero p {
+  max-width: 800px;
+  margin: auto;
+  line-height: 1.8;
+  font-size: 18px;
+  color: #23300c;
+}
+
+.contact-container {
+  padding: 80px 7%;
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+  gap: 60px;
+}
+
+.contact-info,
+.contact-form-container {
+  background: rgba(0, 0, 0, 0.06);
+  border: 1px solid rgba(0, 0, 0, 0.22);
+  padding: 40px;
+}
+
+.contact-info h2,
+.contact-form-container h2 {
+  color: #23300c;
+  margin-bottom: 30px;
+  font-size: 34px;
+  font-weight: 400;
+}
+
+.contact-item {
+  margin-bottom: 25px;
+}
+
+.contact-item h3 {
+  color: #23300c;
+  margin-bottom: 8px;
+}
+
+.contact-item p {
+  color: #23300c;
+  line-height: 1.7;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  background: #f5f0eb;
+  color: #23300c;
+  font-size: 16px;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: rgba(35, 48, 12, 0.65);
+}
+
+.contact-form button {
+  background: #23300c;
+  color: #f5f0eb;
+  border: none;
+  padding: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.contact-form button:hover {
+  background: #3a4a18;
+}
+
+.contact-bottom-cta {
+  text-align: center;
+  padding: 90px 7%;
+  background: #f5f0eb;
+}
+
+.contact-bottom-cta h2 {
+  color: #23300c;
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.contact-bottom-cta p {
+  max-width: 850px;
+  margin: auto;
+  color: #23300c;
+  line-height: 1.8;
+}
+
+/* =========================
+   CONTACT SOCIAL ICONS
+========================= */
+
+.contact-socials {
+  margin-top: 35px;
+  display: flex;
+  gap: 18px;
+}
+
+.contact-socials a {
+  width: 55px;
+  height: 55px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #23300c;
+  color: #f5f0eb;
+
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 24px;
+
+  transition: all 0.3s ease;
+}
+
+.contact-socials a:hover {
+  background: #3a4a18;
+  transform: translateY(-5px);
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 950px) {
+  .contact-container {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-hero h1 {
+    font-size: 36px;
+  }
+
+  .contact-bottom-cta h2 {
+    font-size: 30px;
+  }
+}

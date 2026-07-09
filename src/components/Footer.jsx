@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { FaWhatsapp, FaTiktok } from "react-icons/fa";
 
 import Logo from "../Images/Home/logo.png";
+import "./Footer.css";
 
 function Footer() {
   return (

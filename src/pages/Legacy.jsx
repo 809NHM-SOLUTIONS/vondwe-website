@@ -2,6 +2,7 @@ import Josias from "../Images/Legacy/josias-makungo.jpg";
 import Billy from "../Images/Legacy/billy-makungo.jpg";
 import Velelambeu from "../Images/Legacy/velelambeu-makungo.jpg";
 import Rachel from "../Images/Legacy/rachel-makungo.jpg";
+import "./Legacy.css";
 
 function Legacy() {
   return (

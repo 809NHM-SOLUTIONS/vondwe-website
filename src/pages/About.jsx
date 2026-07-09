@@ -7,6 +7,7 @@ import Velelambeu from "../Images/Legacy/velelambeu-makungo.jpg";
 import Rachel from "../Images/Legacy/rachel-makungo.jpg";
 import OfficeManager from "../Images/About/Staff/Nzimeni Ralinale, office manager.png";
 import TeamPhoto from "../Images/About/Staff/the team 1.png";
+import "./About.css";
 
 function About() {
 

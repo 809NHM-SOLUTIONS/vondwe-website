@@ -1,6 +1,7 @@
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { FaTiktok, FaWhatsapp } from "react-icons/fa6";
+import "./Contact.css";
 
 function Contact() {
   const form = useRef();
