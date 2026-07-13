@@ -2,7 +2,6 @@ import HeroImage from "../Images/Home/kitchen-cab.png";
 import KitchenCabinets from "../Images/Home/kitchen-cabinets.png";
 import KitchenCabinets2 from "../Images/Home/kitchen-cabinets2.png";
 import KitchenCabinetInstallation from "../Images/Home/kitchen-cabinet-instalation.png";
-import Logo from "../Images/Home/logo.png";
 
 function Home() {
   return (
