@@ -49,7 +49,7 @@ function Contact() {
 
           <div className="contact-item">
             <h3>Email</h3>
-            <p>velemakungo@gmail.com</p>
+            <p>info@vondwehoodwork.co.za</p>
           </div>
 
           <div className="contact-item">
