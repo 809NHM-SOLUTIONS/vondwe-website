@@ -51,7 +51,7 @@ function Services() {
         <p className="small-title">OUR SERVICES</p>
         <h1>Woodwork & Joinery Solutions</h1>
         <p>
-          Vondwe Woodwork & Joinery Corporate offers quality custom woodwork
+          Vondwe Woodwork & Joinery  offers quality custom woodwork
           services for homes, offices, and businesses.
         </p>
       </section>

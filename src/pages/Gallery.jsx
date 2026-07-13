@@ -46,7 +46,7 @@ function Gallery() {
       <section className="gallery-hero">
         <h1>Gallery</h1>
         <p>
-          Explore a collection of Vondwe Woodwork & Joinery Corporate projects,
+          Explore a collection of Vondwe Woodwork & Joinery  projects,
           showcasing bedroom furniture, church furniture, kitchen work, and
           custom woodwork.
         </p>

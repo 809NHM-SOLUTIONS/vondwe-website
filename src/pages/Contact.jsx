@@ -106,7 +106,7 @@ function Contact() {
       <section className="contact-bottom-cta">
         <h2>Quality Craftsmanship Since 1965</h2>
         <p>
-          Contact Vondwe Woodwork & Joinery Corporate today and let us bring
+          Contact Vondwe Woodwork & Joinery  today and let us bring
           your vision to life with quality workmanship and professional service.
         </p>
       </section>

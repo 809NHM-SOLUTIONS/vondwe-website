@@ -42,7 +42,7 @@ function Testimonials() {
       <section className="contact-cta">
         <h2>Ready To Start Your Project?</h2>
         <p>
-          Let Vondwe Woodwork & Joinery Corporate create something exceptional
+          Let Vondwe Woodwork & Joinery  create something exceptional
           for your home or business.
         </p>
         <a href="/contact" className="hero-btn">

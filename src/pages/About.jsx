@@ -29,7 +29,7 @@ function About() {
         <p className="small-title">ABOUT VONDWE</p>
         <h1>Three Generations of Quality Craftsmanship</h1>
         <p>
-          Vondwe Woodwork & Joinery Corporate is built on a legacy that began in
+          Vondwe Woodwork & Joinery  is built on a legacy that began in
           1965, combining family values, skilled workmanship, and modern joinery
           solutions.
         </p>
@@ -41,7 +41,7 @@ function About() {
           <h2>A Legacy Since 1965</h2>
 
           <p>
-            Vondwe Woodwork & Joinery Corporate was founded in 1965 by
+            Vondwe Woodwork & Joinery  was founded in 1965 by
             Mr. Josias Nenweli Makungo, a skilled craftsman whose passion for
             woodworking laid the foundation for a business built on quality,
             integrity, and dedication.
@@ -106,7 +106,7 @@ function About() {
           <h2>The Makungo Family Legacy</h2>
 
           <p>
-            The strength of Vondwe Woodwork & Joinery Corporate lies in the
+            The strength of Vondwe Woodwork & Joinery  lies in the
             people who have dedicated their lives to preserving and growing the
             family legacy since 1965.
           </p>

@@ -11,7 +11,7 @@ function Legacy() {
         <h1>Our Legacy</h1>
 
        <p>
-  Since 1965, Vondwe Woodwork & Joinery Corporate has built a legacy
+  Since 1965, Vondwe Woodwork & Joinery  has built a legacy
   of exceptional craftsmanship, trusted workmanship, and family values,
   proudly carried forward through three generations of the Makungo family.
 </p>
@@ -61,7 +61,7 @@ function Legacy() {
           <h2>The Makungo Family Legacy</h2>
 
           <p>
-            The strength of Vondwe Woodwork & Joinery Corporate lies
+            The strength of Vondwe Woodwork & Joinery  lies
             in the people who have dedicated their lives to preserving
             and growing the family legacy since 1965.
           </p>
@@ -158,7 +158,7 @@ function Legacy() {
         <p>
           As we look ahead, we remain committed to preserving the
           craftsmanship and values that have defined Vondwe Woodwork &
-          Joinery Corporate since 1965.
+          Joinery  since 1965.
         </p>
       </section>
 
