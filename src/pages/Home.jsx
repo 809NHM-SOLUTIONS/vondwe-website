@@ -1,6 +1,6 @@
 import HeroImage from "../Images/Home/kitchen-cab.png";
-import KitchenCabinets from "../Images/Home/kitchen-cabinets.png";
-import KitchenCabinets2 from "../Images/Home/kitchen-cabinets2.png";
+import RedVelvetBarStools from "../Images/Home/red-velvet-bar-stools.png";
+import QueenSizeGreenBed from "../Images/Home/queen-size-green-bed.png";
 import KitchenCabinetInstallation from "../Images/Home/kitchen-cabinet-instalation.png";
 import Logo from "../Images/Home/logo.png";
 
@@ -18,7 +18,7 @@ function Home() {
   <div className="hero-overlay">
     <div className="hero-left">
   
-      <h1>VONDWE WOODWORK &amp; JOINERY</h1>
+      
 
       <p>
         Building a legacy of quality craftsmanship, custom woodwork, and
@@ -99,33 +99,32 @@ function Home() {
           <div className="home-card">Repairs & Maintenance</div>
         </div>
       </section>
+{/* FEATURED PROJECTS */}
+<section className="home-panel">
+  <p className="small-title">FEATURED PROJECTS</p>
 
-      {/* FEATURED PROJECTS */}
-      <section className="home-panel">
-        <p className="small-title">FEATURED PROJECTS</p>
+  <h2>Our Recent Work</h2>
 
-        <h2>Our Recent Work</h2>
+  <div className="projects-gallery">
+    <div className="project-item">
+      <img src={RedVelvetBarStools} alt="Red Velvet Bar Stools" />
+      <h3>Red Velvet Bar Stools</h3>
+    </div>
 
-        <div className="projects-gallery">
-          <div className="project-item">
-            <img src={KitchenCabinets} alt="Luxury Kitchen Installation" />
-            <h3>Luxury Kitchen Installation</h3>
-          </div>
+    <div className="project-item">
+      <img src={QueenSizeGreenBed} alt="Queen Size Green Bed" />
+      <h3>Queen Size Green Bed</h3>
+    </div>
 
-          <div className="project-item">
-            <img src={KitchenCabinets2} alt="Modern Built-in Cupboards" />
-            <h3>Modern Built-in Cupboards</h3>
-          </div>
-
-          <div className="project-item">
-            <img
-              src={KitchenCabinetInstallation}
-              alt="Kitchen Cabinet Installation"
-            />
-            <h3>Kitchen Cabinet Installation</h3>
-          </div>
-        </div>
-      </section>
+    <div className="project-item">
+      <img
+        src={KitchenCabinetInstallation}
+        alt="Kitchen Cabinet Installation"
+      />
+      <h3>Kitchen Cabinet Installation</h3>
+    </div>
+  </div>
+</section>
 
       {/* WHY CHOOSE US */}
       <section className="home-panel dark-panel">

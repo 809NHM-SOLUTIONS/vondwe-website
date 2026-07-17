@@ -1,8 +1,9 @@
-import DiningTable from "../Images/Services/dining-table.png";
-import FrontDoor from "../Images/Services/front-door.png";
+import VintageBarStool from "../Images/Services/vintage-bar-stool.png";
+import VelvetLuxuryHeadboardsWorkshop from "../Images/Services/velvet luxury headboards workshop.png";
 import HeadboardBedYellow from "../Images/Services/headboard-bed-yellow.png";
-import HeadboardSideTables from "../Images/Services/headboard-side-tables.png";
-import KitchenCabinets1 from "../Images/Services/kitchen-cabinets-1.png";
+import Wardrobes from "../Images/Services/wardrobes.png";
+import WhiteFrontShelveWardrobe from "../Images/Services/white front shelve wardrobe.png";
+import BanDoors from "../Images/Services/ban doors.png";
 import { Link } from "react-router-dom";
 
 
@@ -14,35 +15,41 @@ function Services() {
  const services = [
   {
     title: "Custom Furniture",
-    image: DiningTable,
+    image: VintageBarStool,
     text:
       "We design and craft custom dining tables, chairs, and furniture pieces tailored to complement your home, office, or commercial space.",
   },
   {
-    title: "Kitchen Units",
-    image: KitchenCabinets1,
-    text:
-      "Our custom kitchen units combine functionality, durability, and modern design to create beautiful and practical kitchen spaces.",
-  },
+  title: "Luxury Headboards",
+  image: VelvetLuxuryHeadboardsWorkshop,
+  text:
+    "We design and manufacture premium upholstered headboards in a variety of styles, colours, and finishes to bring comfort, elegance, and luxury to your bedroom.",
+},
   {
     title: "Bedroom Furniture",
     image: HeadboardBedYellow,
     text:
       "We manufacture high-quality bedroom furniture including custom beds, headboards, and matching furniture designed to suit your style.",
   },
-  {
-    title: "Headboards & Side Tables",
-    image: HeadboardSideTables,
-    text:
-      "Enhance your bedroom with beautifully crafted headboards and side tables built with attention to detail and superior workmanship.",
-  },
+ {
+  title: "Wardrobes",
+  image: Wardrobes,
+  text:
+    "We design and manufacture stylish, durable, and functional wardrobes that maximize storage while enhancing the beauty of your bedroom.",
+},
   {
     title: "Doors & Frames",
-    image: FrontDoor,
+    image: BanDoors,
     text:
       "We create and install premium wooden doors and frames that offer security, durability, and timeless elegance.",
   },
-];
+  {
+    title: "Built-in Wardrobes",
+    image: WhiteFrontShelveWardrobe,
+    text:
+      "We design and install stylish built-in wardrobes and shelving solutions that maximize storage while enhancing the beauty of your space.",
+  },
+];;
   
 
   return (

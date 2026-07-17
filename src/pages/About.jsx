@@ -81,7 +81,7 @@ function About() {
         </div>
 
         <div className="legacy-card">
-          <span>SECOND GENERATION</span>
+          <span>1985 – 2019</span>
           <h2>Billy Makungo</h2>
           <p>
             Billy Makungo continued the family tradition, expanding the business
@@ -90,7 +90,7 @@ function About() {
         </div>
 
         <div className="legacy-card">
-          <span>TODAY</span>
+          <span>2019 – Present</span>
           <h2>Third Generation Leadership</h2>
           <p>
             The legacy continues as the third generation carries the vision
@@ -113,29 +113,29 @@ function About() {
         </div>
 
         <div className="family-grid">
-          <div className="family-card">
-            <img src={Josias} alt="Josias Makungo" />
-            <h3>Josias Makungo</h3>
-            <p>Founder • Established 1965</p>
-          </div>
+         <div className="family-card">
+  <img src={Josias} alt="Josias Makungo" />
+  <h3>Josias Makungo</h3>
+  <p>Founder • Established 1965</p>
+</div>
 
-          <div className="family-card">
-            <img src={Billy} alt="Billy Makungo" />
-            <h3>Billy Makungo</h3>
-            <p>Second Generation Leadership</p>
-          </div>
+<div className="family-card">
+  <img src={Billy} alt="Billy Makungo" />
+  <h3>Billy Makungo</h3>
+  <p>Second Generation Leadership • 1985 – 2019</p>
+</div>
 
-          <div className="family-card">
-            <img src={Velelambeu} alt="Velelambeu Makungo" />
-            <h3>Velelambeu Makungo</h3>
-            <p>Managing Director • Third Generation Leadership</p>
-          </div>
+<div className="family-card">
+  <img src={Velelambeu} alt="Velelambeu Makungo" />
+  <h3>Velelambeu Makungo</h3>
+  <p>Managing Director • Third Generation Leadership • Since 2019</p>
+</div>
 
-          <div className="family-card">
-            <img src={Rachel} alt="Rachel Makungo" />
-            <h3>Rachel Makungo</h3>
-            <p>Marketing Manager</p>
-          </div>
+<div className="family-card">
+  <img src={Rachel} alt="Rachel Makungo" />
+  <h3>Rachel Makungo</h3>
+  <p>Marketing Manager • Since 2019</p>
+</div>
         </div>
 
         <div className="legacy-quote">

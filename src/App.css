@@ -20,17 +20,23 @@ body {
   background: #8f8a8a;
   display: flex;
   align-items: center;
-  padding: 0 55px;
-  gap: 75px;
+  justify-content: space-between;
+  padding: 0 30px 0 5px;
   position: sticky;
   top: 0;
   z-index: 1000;
 }
 
+/* LEFT SIDE: LOGO + COMPANY NAME */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
 
 .navbar-logo {
   height: 100px;
-  width: 240px;
+  width: 180px;
   object-fit: contain;
   display: block;
   background: transparent;
@@ -47,7 +53,7 @@ body {
   transform: scale(1.03);
 }
 
-.navbar > a {
+.navbar-logo-link {
   background: transparent;
   padding: 0;
   margin: 0;
@@ -55,20 +61,29 @@ body {
   align-items: center;
 }
 
+/* COMPANY NAME */
+.company-name {
+  text-align: center;
+}
 
-
-
-.logo {
+.company-name h1 {
+  margin: 0;
   font-family: Arial, sans-serif;
   font-size: 30px;
   font-weight: 900;
-  letter-spacing: 8px;
-  color: #0d0d0d;
+  letter-spacing: 4px;
+  line-height: 1.1;
+  color: #d8b89f; /* your gold colour */
+  white-space: nowrap;
 }
 
+/* NAVIGATION LINKS */
 .nav-links {
   display: flex;
+  align-items: center;
+  justify-content: flex-end;
   gap: 38px;
+  margin-left: auto;
 }
 
 .nav-links a {
@@ -81,19 +96,33 @@ body {
   color: #d8b89f;
 }
 
-
-
 .nav-links a.active {
-  color: #d8b89f;
-  border-bottom: 2px solid #d8b89f;
+  color: #111;               /* Black text */
+  border-bottom: 2px solid #d8b89f; /* Keep gold underline */
   padding-bottom: 5px;
 }
 
-t {
-  max-width: 850px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+/* MOBILE */
+@media (max-width: 1000px) {
+  .navbar {
+    padding: 0 15px 0 5px;
+  }
+
+  .navbar-logo {
+    width: 140px;
+  }
+
+  .company-name h1 {
+    font-size: 19px;
+  }
+
+  .nav-links {
+    gap: 18px;
+  }
+
+  .nav-links a {
+    font-size: 14px;
+  }
 }
 
 /* =========================
