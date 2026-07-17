@@ -2,7 +2,6 @@ import HeroImage from "../Images/Home/kitchen-cab.png";
 import RedVelvetBarStools from "../Images/Home/red-velvet-bar-stools.png";
 import QueenSizeGreenBed from "../Images/Home/queen-size-green-bed.png";
 import KitchenCabinetInstallation from "../Images/Home/kitchen-cabinet-instalation.png";
-import Logo from "../Images/Home/logo.png";
 
 function Home() {
   return (
