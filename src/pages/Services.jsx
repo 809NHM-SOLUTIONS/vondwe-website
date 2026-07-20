@@ -4,6 +4,8 @@ import HeadboardBedYellow from "../Images/Services/headboard-bed-yellow.png";
 import Wardrobes from "../Images/Services/wardrobes.png";
 import WhiteFrontShelveWardrobe from "../Images/Services/white front shelve wardrobe.png";
 import BanDoors from "../Images/Services/ban doors.png";
+import BrownWardrobe from "../Images/Services/brown wardrobe 1.png";
+import WhiteWardrobe from "../Images/Services/white wardrobe.png";
 import { Link } from "react-router-dom";
 
 
@@ -31,11 +33,12 @@ function Services() {
     text:
       "We manufacture high-quality bedroom furniture including custom beds, headboards, and matching furniture designed to suit your style.",
   },
- {
-  title: "Wardrobes",
-  image: Wardrobes,
+{
+  title: "Brown Wardrobe",
+  category: "Bedroom Storage",
+  image: BrownWardrobe,
   text:
-    "We design and manufacture stylish, durable, and functional wardrobes that maximize storage while enhancing the beauty of your bedroom.",
+    "Our custom brown wardrobes are designed to provide stylish, spacious, and durable storage solutions. Built with quality materials and expert craftsmanship, they combine functionality with timeless elegance to complement any bedroom.",
 },
   {
     title: "Doors & Frames",
@@ -43,13 +46,14 @@ function Services() {
     text:
       "We create and install premium wooden doors and frames that offer security, durability, and timeless elegance.",
   },
-  {
-    title: "Built-in Wardrobes",
-    image: WhiteFrontShelveWardrobe,
-    text:
-      "We design and install stylish built-in wardrobes and shelving solutions that maximize storage while enhancing the beauty of your space.",
-  },
-];;
+ {
+  title: "White Wardrobe",
+  category: "Bedroom Storage",
+  image: WhiteWardrobe,
+  text:
+    "Our white wardrobes offer a clean, modern look while maximizing storage space. Designed with precision and high-quality finishes, they bring elegance, practicality, and long-lasting durability to your home.",
+},
+];
   
 
   return (

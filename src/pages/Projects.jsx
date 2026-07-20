@@ -4,6 +4,8 @@ import SchoolDesk2 from "../Images/Projects/school-desk2.png";
 import WoodEyeStand from "../Images/Projects/eyestand in shop display.png";
 import BlackOpenCloset from "../Images/Projects/black open plan closet.png";
 //import FloatingTvStand from "../Images/Projects/floating tv stand lounge.png";
+import VintageBrownWardrobe from "../Images/Projects/vintage brown wardrobe.png";
+import BlackAndWhitePedstals from "../Images/Projects/black and white pedstals.png";
 
 
 import Headboard from "../Images/Gallery/luxury cream and coffee brown headboard w table.png";
@@ -31,6 +33,9 @@ import VintageCoffeeTable2 from "../Images/Gallery/vintage coffe table 2.png";
 import BathroomHolder from "../Images/Gallery/bathroomholder.png";
 import BlackOpenPlanCloset from "../Images/Gallery/black open plan closet.png";
 import MultiColourBarStools from "../Images/Projects/multi colour stools.png";
+import MinimalistOpenCloset from "../Images/Projects/minimalist open closet.png";
+import FourPedstals from "../Images/Projects/4 pedstals.png";
+import YellowCasualChairWorkshop from "../Images/Projects/yellow casual chair workshop.png";
 
 function Projects() {
   const projects = [
@@ -60,10 +65,10 @@ function Projects() {
       
         
     },
-    {
-  title: "Black Open Closet",
-  category: "Built-in Wardrobes",
-  image: BlackOpenCloset,
+  {
+  title: "Vintage Brown Wardrobe",
+  category: "Bedroom Storage",
+  image: VintageBrownWardrobe,
 },
     {
   title: "Floating TV Stand",
@@ -81,10 +86,10 @@ function Projects() {
   image: VintageBarTable,
 },
 {
-  title: "Vintage Bar Table Set",
-  category: "Custom Furniture",
-  image: VintageBarTable2,
-},
+  title: "Black & White Pedestals",
+  category: "Bedroom Furniture",
+  image: BlackAndWhitePedstals,
+}
 
   ];
 
@@ -120,6 +125,7 @@ function Projects() {
     },
 {
   title: "Dining Set",
+  category: "Dining Room Furniture",
   image: DiningSetLounge,
 },
 {
@@ -129,7 +135,8 @@ function Projects() {
 },
 {
   title: "Minimalist Open Closet",
-  image: BlackOpenPlanCloset,
+  category: "Bedroom Furniture",
+  image: MinimalistOpenCloset,
 },
 
 {
@@ -143,9 +150,11 @@ function Projects() {
   image: GreyChestDrawerWorkshop,
 },
 {
-  title: "Long Wooden TV Cabinet",
-  category: "Living Room Furniture",
-  image: LongWoodTvCabinet,
+  title: "Four Pedestals",
+  category: "Bedroom Furniture",
+  image: FourPedstals,
+  
+    
 },
 {
   title: "Long Wooden TV Cabinet",
@@ -168,9 +177,10 @@ function Projects() {
   image: CommercialReceptionBench,
 },
 {
-  title: "Dining Set",
-  category: "Dining Room Furniture",
-  image: DiningSetLounge,
+  title: "Yellow Casual Chair",
+  category: "Living Room Furniture",
+  image: YellowCasualChairWorkshop,
+  
 },
 {
   title: "Elegant Liquor Display",
