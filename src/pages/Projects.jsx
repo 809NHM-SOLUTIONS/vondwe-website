@@ -1,13 +1,13 @@
 import KiddiesHeadboards from "../Images/Projects/kiddies-headboards.png";
-import LuxuryHeadboards from "../Images/Projects/luxury-headboards.png";
 import PulpitsBenches from "../Images/Projects/pulpits-benches.png";
 import SchoolDesk2 from "../Images/Projects/school-desk2.png";
-import TableAndChairs from "../Images/Projects/table-and-chairs.jpg";
-import BarnDoorsGallery from "../Images/Projects/vondwe-barn-doors-gallery.png";
+import WoodEyeStand from "../Images/Projects/eyestand in shop display.png";
+import BlackOpenCloset from "../Images/Projects/black open plan closet.png";
+//import FloatingTvStand from "../Images/Projects/floating tv stand lounge.png";
+
 
 import Headboard from "../Images/Gallery/luxury cream and coffee brown headboard w table.png";
 import Pulpit from "../Images/Gallery/pulpit worshp.png";
-import BedBase from "../Images/Gallery/queen size green head wood base w tables workshop.png";
 import BarStools from "../Images/Gallery/red stool bar workshop.png";
 import Kitchen from "../Images/Gallery/red velvet stools, kitchen.png";
 import DisplayCabinet from "../Images/Gallery/whiteliquor displaycabinet dining room.png";
@@ -30,6 +30,7 @@ import WhiteShelveWardrobe from "../Images/Gallery/white front shelve wardrobe.p
 import VintageCoffeeTable2 from "../Images/Gallery/vintage coffe table 2.png";
 import BathroomHolder from "../Images/Gallery/bathroomholder.png";
 import BlackOpenPlanCloset from "../Images/Gallery/black open plan closet.png";
+import MultiColourBarStools from "../Images/Projects/multi colour stools.png";
 
 function Projects() {
   const projects = [
@@ -37,44 +38,38 @@ function Projects() {
       title: "Kiddies Headboards",
       category: "Bedroom Furniture",
       image: KiddiesHeadboards,
-      description:
-        "Custom-made kiddies headboards designed with comfort, creativity, and quality finishing.",
+      
+        
     },
-    {
-      title: "Luxury Headboards",
-      category: "Bedroom Furniture",
-      image: LuxuryHeadboards,
-      description:
-        "Elegant luxury headboards crafted to bring style and a premium finish to bedroom spaces.",
-    },
+  {
+  title: "Wood Eye Stand",
+  category: "Custom Display Furniture",
+  image: WoodEyeStand,
+},
     {
       title: "Pulpits and Benches",
       category: "Church Furniture",
       image: PulpitsBenches,
-      description:
-        "Strong and beautifully crafted pulpits and benches for churches, halls, and community spaces.",
+      
+        
     },
     {
       title: "School Desks",
       category: "School Furniture",
       image: SchoolDesk2,
-      description:
-        "Durable school desks built for learning environments with practical and long-lasting design.",
+      
+        
     },
     {
-      title: "Table and Chairs",
-      category: "Custom Furniture",
-      image: TableAndChairs,
-      description:
-        "Custom tables and chairs designed for homes, dining spaces, offices, and business use.",
-    },
+  title: "Black Open Closet",
+  category: "Built-in Wardrobes",
+  image: BlackOpenCloset,
+},
     {
-      title: "Barn Doors",
-      category: "Doors & Joinery",
-      image: BarnDoorsGallery,
-      description:
-        "Stylish wooden barn doors crafted with precision, durability, and timeless character.",
-    },
+  title: "Floating TV Stand",
+  category: "Living Room Furniture",
+  image: FloatingTvStand,
+},
 {
   title: "Wooden Bar Stool",
   category: "Custom Furniture",
@@ -104,11 +99,10 @@ function Projects() {
       category: "Church Furniture",
       image: Pulpit,
     },
-    {
-      title: "Queen Bed Base",
-      category: "Bedroom Furniture",
-      image: BedBase,
-    },
+   {
+  title: "Multi Colour Bar Stools",
+  image: MultiColourBarStools,
+},
     {
       title: "Bar Stools",
       category: "Custom Furniture",
@@ -125,9 +119,8 @@ function Projects() {
       image: DisplayCabinet,
     },
 {
-  title: "Eyestand Shop Display",
-  category: "Display Furniture",
-  image: EyeStandDisplay,
+  title: "Dining Set",
+  image: DiningSetLounge,
 },
 {
   title: "Fitted Liquor Display",
@@ -135,18 +128,17 @@ function Projects() {
   image: FittedLiquorDisplay,
 },
 {
-  title: "Floating TV Stand",
-  category: "Living Room Furniture",
-  image: FloatingTvStand,
+  title: "Minimalist Open Closet",
+  image: BlackOpenPlanCloset,
 },
 
 {
-  title: "Grey Chest of Drawers",
+  title: "Black Chest of Drawers",
   category: "Bedroom Furniture",
   image: GreyChestDrawer,
 },
 {
-  title: "Grey Chest of Drawers",
+  title: "Black Chest of Drawers",
   category: "Bedroom Furniture",
   image: GreyChestDrawerWorkshop,
 },
