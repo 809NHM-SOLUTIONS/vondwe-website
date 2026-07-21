@@ -166,27 +166,105 @@ body {
   width: 100%;
 }
 
+/* HAMBURGER TOGGLE — hidden on desktop */
+.navbar-toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  width: 44px;
+  height: 44px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 1100;
+}
+
+.navbar-toggle span {
+  display: block;
+  width: 26px;
+  height: 2px;
+  background: var(--accent-green);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.navbar-toggle.is-open span:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.navbar-toggle.is-open span:nth-child(2) {
+  opacity: 0;
+}
+
+.navbar-toggle.is-open span:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+.navbar-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(22, 36, 28, 0.45);
+  z-index: 999;
+}
+
 
 /* MOBILE */
 @media (max-width: 1000px) {
-  .navbar {
-    padding: 0 15px 0 5px;
-  }
-
   .navbar-logo {
     width: 140px;
   }
+}
+
+/* MOBILE NAV (<= 950px) */
+@media (max-width: 950px) {
+  .navbar {
+    padding: 0 20px 0 5px;
+    flex-direction: row;
+    height: 90px;
+  }
+
+  .navbar-toggle {
+    display: flex;
+  }
 
   .company-name h1 {
-    font-size: 19px;
+    font-size: 16px;
+    letter-spacing: 2px;
   }
 
   .nav-links {
-    gap: 18px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: min(78%, 320px);
+    margin-left: 0;
+    background: var(--bg-cream);
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0;
+    padding: 110px 40px 40px;
+    transform: translateX(100%);
+    transition: transform 0.35s ease;
+    z-index: 1050;
+    box-shadow: -8px 0 30px rgba(0, 0, 0, 0.15);
+  }
+
+  .nav-links.is-open {
+    transform: translateX(0);
   }
 
   .nav-links a {
-    font-size: 14px;
+    width: 100%;
+    padding: 16px 0;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(28, 61, 43, 0.12);
+  }
+
+  .nav-links a::after {
+    display: none;
   }
 }
 
@@ -1100,20 +1178,6 @@ blockquote {
 
 /* RESPONSIVE */
 @media (max-width: 950px) {
-  .navbar {
-    flex-direction: column;
-    height: auto;
-    padding: 25px;
-    gap: 20px;
-  }
-
-  .nav-links {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    margin-left: 0;
-  }
-
   .hero-overlay,
   .generations,
   .home-grid,
