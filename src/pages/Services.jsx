@@ -1,8 +1,6 @@
 import VintageBarStool from "../Images/Services/vintage-bar-stool.png";
 import VelvetLuxuryHeadboardsWorkshop from "../Images/Services/velvet luxury headboards workshop.png";
 import HeadboardBedYellow from "../Images/Services/headboard-bed-yellow.png";
-import Wardrobes from "../Images/Services/wardrobes.png";
-import WhiteFrontShelveWardrobe from "../Images/Services/white front shelve wardrobe.png";
 import BanDoors from "../Images/Services/ban doors.png";
 import BrownWardrobe from "../Images/Services/brown wardrobe 1.png";
 import WhiteWardrobe from "../Images/Services/white wardrobe.png";
