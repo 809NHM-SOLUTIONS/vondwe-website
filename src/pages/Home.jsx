@@ -107,12 +107,14 @@ function Home() {
   <div className="projects-gallery">
     <div className="project-item">
       <img src={RedVelvetBarStools} alt="Red Velvet Bar Stools" />
-      <h3>Red Velvet Bar Stools</h3>
+      <h3>The Ruby Bar Stool</h3>
+      <p>Designed to bring warmth and sophistication to modern kitchens and entertainment spaces, The Ruby Bar Stool combines comfort with timeless craftsmanship.</p>
+      <br></br>
     </div>
 
     <div className="project-item">
       <img src={QueenSizeGreenBed} alt="Queen Size Green Bed" />
-      <h3>Queen Size Green Bed</h3>
+      <h3>Vondwe Signature Bed</h3>
     </div>
 
     <div className="project-item">

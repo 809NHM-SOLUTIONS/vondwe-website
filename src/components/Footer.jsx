@@ -88,7 +88,7 @@ function Footer() {
 
           <div className="footer-contact-item">
             <span>EMAIL</span>
-            <a href="mailto:info@vondwehoodwork.co.za">
+            <a href="mailto:info@vondwewoodwork.co.za">
               info@vondwewoodwork.co.za
             </a>
           </div>
