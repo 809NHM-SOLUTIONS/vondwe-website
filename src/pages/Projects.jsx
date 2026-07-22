@@ -156,9 +156,9 @@ function Projects() {
         "A curated collection of modern bedside pedestals designed to complement every Vondwe bedroom suite.",
     },
     {
-      title: "Long Wooden TV Cabinet",
-      category: "Living Room Furniture",
+      title: "The Hearth Console",
       image: LongWoodTvCabinetLounge,
+      description: "Inspired by the heart of the home, The Hearth Console combines timeless craftsmanship with generous storage and understated elegance."
     },
     {
       title: "The Azure Headboard",
@@ -168,10 +168,9 @@ function Projects() {
     },
     {
       title: "The Mocha Headboard",
-      category: "Bedroom Furniture",
       image: CreamCoffeeHeadboardBedroom,
       description:
-        "Warm, timeless, and inviting—The Mocha Headboard transforms the bedroom into a sanctuary of comfort.",
+        "A contemporary storage solution featuring open shelving, hanging rails, and spacious compartments—crafted to bring simplicity, elegance, and effortless organization to your home.",
     },
     {
       title: "Commercial Reception Bench",
