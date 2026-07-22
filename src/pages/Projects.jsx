@@ -2,10 +2,8 @@ import KiddiesHeadboards from "../Images/Projects/kiddies-headboards.png";
 import PulpitsBenches from "../Images/Projects/pulpits-benches.png";
 import SchoolDesk2 from "../Images/Projects/school-desk2.png";
 import WoodEyeStand from "../Images/Projects/eyestand in shop display.png";
-//import FloatingTvStand from "../Images/Projects/floating tv stand lounge.png";
 import VintageBrownWardrobe from "../Images/Projects/vintage brown wardrobe.png";
 import BlackAndWhitePedstals from "../Images/Projects/black and white pedstals.png";
-
 
 import Headboard from "../Images/Gallery/luxury cream and coffee brown headboard w table.png";
 import Pulpit from "../Images/Gallery/pulpit worshp.png";
@@ -39,176 +37,184 @@ function Projects() {
       title: "Kiddies Headboards",
       category: "Bedroom Furniture",
       image: KiddiesHeadboards,
-      
-        
     },
-  {
-  title: "Wood Eye Stand",
-  category: "Custom Display Furniture",
-  image: WoodEyeStand,
-},
+    {
+      title: "Wood Eye Stand",
+      category: "Custom Display Furniture",
+      image: WoodEyeStand,
+    },
     {
       title: "Pulpits and Benches",
       category: "Church Furniture",
       image: PulpitsBenches,
-      
-        
     },
     {
       title: "School Desks",
       category: "School Furniture",
       image: SchoolDesk2,
-      
-        
     },
-  {
-  title: "Vintage Brown Wardrobe",
-  category: "Bedroom Storage",
-  image: VintageBrownWardrobe,
-},
     {
-  title: "Floating TV Stand",
-  category: "Living Room Furniture",
-  image: FloatingTvStand,
-},
-{
-  title: "Wooden Bar Stool",
-  category: "Custom Furniture",
-  image: StoolBar,
-},
-{
-  title: "Vintage Bar Table and Stools",
-  category: "Custom Furniture",
-  image: VintageBarTable,
-},
-{
-  title: "Black & White Pedestals",
-  category: "Bedroom Furniture",
-  image: BlackAndWhitePedstals,
-}
-
+      title: "The Heritage Wardrobe",
+      category: "Billy's Collection",
+      image: VintageBrownWardrobe,
+      description:
+        "Crafted with rich wood finishes and timeless design, The Heritage Wardrobe embodies Vondwe's commitment to quality, legacy, and exceptional craftsmanship.",
+    },
+    {
+      title: "The Floating Haven TV Console",
+      category: "Living Room Furniture",
+      image: FloatingTvStand,
+      description:
+        "Crafted with rich wood finishes and minimalist lines, The Haven TV Console transforms your living space into a place of comfort and connection.",
+    },
+    {
+      title: "The Emerald Perch Stool",
+      category: "Custom Furniture",
+      image: StoolBar,
+    },
+    {
+      title: "Vintage Forge Set",
+      category: "Annah's Collection",
+      image: VintageBarTable,
+    },
+    {
+      title: "The Midnight & Pearl Pedestal",
+      category: "Bedroom Furniture",
+      image: BlackAndWhitePedstals,
+      description:
+        "A curated collection of modern bedside pedestals designed to complement every Vondwe bedroom suite.",
+    },
   ];
 
   const galleryItems = [
     {
-      title: "Luxury Headboard",
+      title: "The Mocha Headboard",
       category: "Bedroom Furniture",
       image: Headboard,
+      description:
+        "Warm, timeless, and inviting—The Mocha Headboard transforms the bedroom into a sanctuary of comfort.",
     },
     {
-      title: "Church Pulpit",
+      title: "The Grace Pulpit",
       category: "Church Furniture",
       image: Pulpit,
+      description:
+        "Crafted with purpose and reverence, The Grace Pulpit stands as a timeless centerpiece for worship and ministry.",
     },
-   {
-  title: "Multi Colour Bar Stools",
-  image: MultiColourBarStools,
-},
     {
-      title: "Bar Stools",
+      title: "The Canvas Bar Stool",
+      image: MultiColourBarStools,
+      description:
+        "Your space, your color, your statement. A timeless Vondwe original, available in multiple finishes.",
+    },
+    {
+      title: "The Ruby Bar Stools",
       category: "Custom Furniture",
       image: BarStools,
     },
     {
-      title: "Kitchen Stools",
-      category: "Kitchen Work",
+      title: "Custom Made",
       image: Kitchen,
+      description:
+        "Designed to bring warmth and sophistication to modern kitchens and entertainment spaces, The Ruby Bar Stool combines comfort with timeless craftsmanship.",
     },
     {
-      title: "Display Cabinet",
-      category: "Custom Furniture",
+      title: "The Gallery Cabinet",
       image: DisplayCabinet,
+      description:
+        "Designed to showcase life's finest pieces with elegance and intention.",
     },
-{
-  title: "Dining Set",
-  category: "Dining Room Furniture",
-  image: DiningSetLounge,
-},
-{
-  title: "Fitted Liquor Display",
-  category: "Display Furniture",
-  image: FittedLiquorDisplay,
-},
-{
-  title: "Minimalist Open Closet",
-  category: "Bedroom Furniture",
-  image: MinimalistOpenCloset,
-},
-
-{
-  title: "Black Chest of Drawers",
-  category: "Bedroom Furniture",
-  image: GreyChestDrawer,
-},
-{
-  title: "Black Chest of Drawers",
-  category: "Bedroom Furniture",
-  image: GreyChestDrawerWorkshop,
-},
-{
-  title: "Four Pedestals",
-  category: "Bedroom Furniture",
-  image: FourPedstals,
-  
-    
-},
-{
-  title: "Long Wooden TV Cabinet",
-  category: "Living Room Furniture",
-  image: LongWoodTvCabinetLounge,
-},
-{
-  title: "Luxury Blue and Cream Headboard",
-  category: "Bedroom Furniture",
-  image: BlueCreamHeadboard,
-},
-{
-  title: "Luxury Cream and Coffee Headboard",
-  category: "Bedroom Furniture",
-  image: CreamCoffeeHeadboardBedroom,
-},
-{
-  title: "Commercial Reception Bench",
-  category: "Commercial Furniture",
-  image: CommercialReceptionBench,
-},
-{
-  title: "Yellow Casual Chair",
-  category: "Living Room Furniture",
-  image: YellowCasualChairWorkshop,
-  
-},
-{
-  title: "Elegant Liquor Display",
-  category: "Display Furniture",
-  image: ElegantLiquorDisplay,
-},
-
-{
-  title: "White Shelved Wardrobe",
-  category: "Bedroom Furniture",
-  image: WhiteShelveWardrobe,
-},
-{
-  title: "Vintage Coffee Table",
-  category: "Living Room Furniture",
-  image: VintageCoffeeTable2,
-},
-{
-  title: "Bathroom Holder",
-  category: "Bathroom Furniture",
-  image: BathroomHolder,
-},
-
-
-
-
+    {
+      title: "The Annah Gathering Collection",
+      image: DiningSetLounge,
+      description:
+        "Named in honor of Anna Makungo, the heart of the Makungo family, the Anna Gathering Collection celebrates love, hospitality, and togetherness. Handcrafted from premium timber, this dining set is designed to be the centerpiece of family life—where meals are shared, stories are told, and memories are passed from one generation to the next. Built with the same care and devotion that Anna brought to her family, this collection is a tribute to enduring legacy and timeless craftsmanship.",
+    },
+    {
+      title: "The Gallery Cabinet",
+      image: FittedLiquorDisplay,
+      description:
+        "Designed to showcase life's finest pieces with elegance and intention.",
+    },
+    {
+      title: "Minimalist Open Closet",
+      category: "Bedroom Furniture",
+      image: MinimalistOpenCloset,
+    },
+    {
+      title: "Black Chest of Drawers",
+      category: "Bedroom Furniture",
+      image: GreyChestDrawer,
+    },
+    {
+      title: "Black Chest of Drawers",
+      category: "Bedroom Furniture",
+      image: GreyChestDrawerWorkshop,
+    },
+    {
+      title: "The Signature Pedestals",
+      image: FourPedstals,
+      description:
+        "A curated collection of modern bedside pedestals designed to complement every Vondwe bedroom suite.",
+    },
+    {
+      title: "Long Wooden TV Cabinet",
+      category: "Living Room Furniture",
+      image: LongWoodTvCabinetLounge,
+    },
+    {
+      title: "The Azure Headboard",
+      image: BlueCreamHeadboard,
+      description:
+        "A striking blend of sapphire blue and soft cream, crafted to bring sophistication to every bedroom.",
+    },
+    {
+      title: "The Mocha Headboard",
+      category: "Bedroom Furniture",
+      image: CreamCoffeeHeadboardBedroom,
+      description:
+        "Warm, timeless, and inviting—The Mocha Headboard transforms the bedroom into a sanctuary of comfort.",
+    },
+    {
+      title: "Commercial Reception Bench",
+      category: "Commercial Furniture",
+      image: CommercialReceptionBench,
+    },
+    {
+      title: "Yellow Casual Chair",
+      category: "Living Room Furniture",
+      image: YellowCasualChairWorkshop,
+    },
+    {
+      title: "Elegant Liquor Display",
+      category: "Display Furniture",
+      image: ElegantLiquorDisplay,
+    },
+    {
+      title: "The Serenity Wardrobe",
+      category: "Billy's Collection",
+      image: WhiteShelveWardrobe,
+      description:
+        "A harmonious blend of elegance and functionality, designed to bring calm, order, and timeless beauty to your bedroom.",
+    },
+    {
+      title: "Vintage Coffee Table",
+      category: "Living Room Furniture",
+      image: VintageCoffeeTable2,
+    },
+    {
+      title: "The Haven Shelf",
+      image: BathroomHolder,
+      description:
+        "Minimalist storage designed to bring order, warmth, and tranquillity to your bathroom space.",
+    },
   ];
 
   return (
     <main className="projects-page">
       <section className="projects-hero">
         <h1>Our Projects</h1>
+
         <p>
           View some of our completed woodwork and joinery projects, crafted with
           quality, care, and attention to detail.
@@ -224,49 +230,58 @@ function Projects() {
       </section>
 
       <section className="projects-grid-page">
-        {projects.map((project) => (
-          <div className="project-card-page" key={project.title}>
+        {projects.map((project, index) => (
+          <div
+            className="project-card-page"
+            key={`${project.title}-${index}`}
+          >
             <img src={project.image} alt={project.title} />
 
             <div className="project-card-content">
-              <p>{project.category}</p>
+              {project.category && <p>{project.category}</p>}
+
               <h2>{project.title}</h2>
-              <span>{project.description}</span>
+
+              {project.description && (
+                <span>{project.description}</span>
+              )}
             </div>
           </div>
         ))}
       </section>
-<section className="premium-project">
-  <img
-    src={BlackOpenPlanCloset}
-    alt="Custom open plan wooden closet"
-    className="premium-project-image"
-  />
 
-  <div className="premium-project-overlay"></div>
+      <section className="premium-project">
+        <img
+          src={BlackOpenPlanCloset}
+          alt="Custom open plan wooden closet"
+          className="premium-project-image"
+        />
 
-  <div className="premium-project-content">
-    <p className="premium-small-title">OUR CRAFTSMANSHIP</p>
+        <div className="premium-project-overlay"></div>
 
-    <h2>
-      Built with Skill.
-      <br />
-      Made to Last.
-    </h2>
+        <div className="premium-project-content">
+          <p className="premium-small-title">OUR CRAFTSMANSHIP</p>
 
-    <p className="premium-description">
-      From custom wardrobes to luxury bedroom finishes, every piece is built
-      with careful detail, strong materials, and timeless workmanship.
-    </p>
+          <h2>
+            Built with Skill.
+            <br />
+            Made to Last.
+          </h2>
 
-    
-  </div>
-</section>
+          <p className="premium-description">
+            From custom wardrobes to luxury bedroom finishes, every piece is
+            built with careful detail, strong materials, and timeless
+            workmanship.
+          </p>
+        </div>
+      </section>
 
       <section className="project-gallery-section">
         <div className="project-gallery-heading">
           <p className="small-title">PROJECT GALLERY</p>
+
           <h2>More of Our Work</h2>
+
           <p>
             Explore more completed woodwork and joinery pieces, showcasing our
             attention to detail, strong materials, and quality finishing.
@@ -274,34 +289,41 @@ function Projects() {
         </div>
 
         <div className="gallery-grid">
-          {galleryItems.map((project) => (
-            <div className="gallery-card" key={project.title}>
+          {galleryItems.map((project, index) => (
+            <div
+              className="gallery-card"
+              key={`${project.title}-${index}`}
+            >
               <img src={project.image} alt={project.title} />
 
               <div className="gallery-card-content">
-                <p>{project.category}</p>
+                {project.category && <p>{project.category}</p>}
+
                 <h2>{project.title}</h2>
+
+                {project.description && (
+                  <span>{project.description}</span>
+                )}
               </div>
             </div>
           ))}
         </div>
       </section>
 
-<section className="gallery-bottom-cta">
-  <p>READY TO CREATE SOMETHING UNIQUE?</p>
+      <section className="gallery-bottom-cta">
+        <p>READY TO CREATE SOMETHING UNIQUE?</p>
 
-  <h2>Let’s Bring Your Vision to Life</h2>
+        <h2>Let’s Bring Your Vision to Life</h2>
 
-  <span>
-    From custom furniture to complete woodwork projects, we are ready to build
-    something made especially for you.
-  </span>
+        <span>
+          From custom furniture to complete woodwork projects, we are ready to
+          build something made especially for you.
+        </span>
 
-  <a href="/contact" className="hero-btn">
-    START YOUR PROJECT
-  </a>
-</section>
-
+        <a href="/contact" className="hero-btn">
+          START YOUR PROJECT
+        </a>
+      </section>
     </main>
   );
 }

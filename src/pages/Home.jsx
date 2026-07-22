@@ -115,6 +115,8 @@ function Home() {
     <div className="project-item">
       <img src={QueenSizeGreenBed} alt="Queen Size Green Bed" />
       <h3>Vondwe Signature Bed</h3>
+      <p>Designed for those who believe their bedroom should feel like a royal retreat.</p>
+      <br></br>
     </div>
 
     <div className="project-item">
@@ -123,6 +125,8 @@ function Home() {
         alt="Kitchen Cabinet Installation"
       />
       <h3>Kitchen Cabinet Installation</h3>
+      <p>Built with precision and installed with care by Vondwe Woodwork & Joinery, every detail reflects a commitment to quality, heritage, and intentional living. From family breakfasts to festive celebrations and  cherished moments.</p>
+      <br></br>
     </div>
   </div>
 </section>

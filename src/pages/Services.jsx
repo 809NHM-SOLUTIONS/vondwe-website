@@ -14,7 +14,7 @@ import { Link } from "react-router-dom";
 function Services() {
  const services = [
   {
-    title: "Custom Furniture",
+    title: "Harvest Dining Set(Annah's Collection)",
     image: VintageBarStool,
     text:
       "We design and craft custom dining tables, chairs, and furniture pieces tailored to complement your home, office, or commercial space.",
@@ -26,30 +26,30 @@ function Services() {
     "We design and manufacture premium upholstered headboards in a variety of styles, colours, and finishes to bring comfort, elegance, and luxury to your bedroom.",
 },
   {
-    title: "Bedroom Furniture",
+    title: "The Solstice Bed",
     image: HeadboardBedYellow,
     text:
-      "We manufacture high-quality bedroom furniture including custom beds, headboards, and matching furniture designed to suit your style.",
+      "Inspired by sunshine and warmth. This bed is bold, modern, and almost regal with its geometric headboard.",
   },
 {
-  title: "Brown Wardrobe",
+  title: "The Billy Legacy Wardrobe",
   category: "Bedroom Storage",
   image: BrownWardrobe,
   text:
-    "Our custom brown wardrobes are designed to provide stylish, spacious, and durable storage solutions. Built with quality materials and expert craftsmanship, they combine functionality with timeless elegance to complement any bedroom.",
+    "Named in honour of Billy Makungo—the foundation of the Vondwe legacy—the Billy Legacy Wardrobe represents strength, craftsmanship, and enduring family values. Featuring a timeless design with spacious compartments and elegant drawers, this wardrobe is crafted to serve generations to come. Just as Billy laid the foundation for the family business, this piece is built to stand the test of time, bringing beauty, functionality, and heritage into every home.",
 },
   {
-    title: "Doors & Frames",
+    title: "THE JOSIAS COLLECTION (Opening Doors Since 1965)",
     image: BanDoors,
     text:
-      "We create and install premium wooden doors and frames that offer security, durability, and timeless elegance.",
+      "Honouring the founder whose hands built more than furniture—they built a legacy. The Josias Collection celebrates six decades of craftsmanship through a distinguished range of handcrafted doors designed to welcome generations to come. Every Door Opens a Legacy.",
   },
  {
-  title: "White Wardrobe",
+  title: "The Aurora Wardrobe (Billy's Collection)",
   category: "Bedroom Storage",
   image: WhiteWardrobe,
   text:
-    "Our white wardrobes offer a clean, modern look while maximizing storage space. Designed with precision and high-quality finishes, they bring elegance, practicality, and long-lasting durability to your home.",
+    "Featuring a clean modern aesthetic with integrated drawers and a central mirror, The Aurora Wardrobe brings elegance and functionality to any bedroom.",
 },
 ];
   
