@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import KiddiesHeadboards from "../Images/Projects/kiddies-headboards.png";
 import PulpitsBenches from "../Images/Projects/pulpits-benches.png";
 import SchoolDesk2 from "../Images/Projects/school-desk2.png";
@@ -315,9 +316,9 @@ function Projects() {
           build something made especially for you.
         </span>
 
-        <a href="/contact" className="hero-btn">
-          START YOUR PROJECT
-        </a>
+        <Link to="/contact" className="hero-btn">
+         START YOUR PROJECT
+        </Link>
       </section>
     </main>
   );

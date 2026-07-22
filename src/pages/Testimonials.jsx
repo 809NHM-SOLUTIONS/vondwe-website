@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Testimonials() {
   const testimonials = [
     {
@@ -45,9 +47,9 @@ function Testimonials() {
           Let Vondwe Woodwork & Joinery  create something exceptional
           for your home or business.
         </p>
-        <a href="/contact" className="hero-btn">
-          CONTACT US
-        </a>
+        <Link to="/contact" className="hero-btn">
+         CONTACT US
+        </Link>
       </section>
     </main>
   );

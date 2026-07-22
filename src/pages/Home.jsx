@@ -1,7 +1,9 @@
+import { Link } from "react-router-dom";
 import HeroImage from "../Images/Home/kitchen-cab.png";
 import RedVelvetBarStools from "../Images/Home/red-velvet-bar-stools.png";
 import QueenSizeGreenBed from "../Images/Home/queen-size-green-bed.png";
 import KitchenCabinetInstallation from "../Images/Home/kitchen-cabinet-instalation.png";
+
 
 function Home() {
   return (
@@ -25,9 +27,9 @@ function Home() {
       </p>
 
       <div className="hero-btn-container">
-  <a href="/projects" className="hero-btn">
-    EXPLORE OUR PROJECTS
-  </a>
+  <Link to="/projects" className="hero-btn">
+  EXPLORE OUR PROJECTS
+</Link>
 </div>
       
     </div>
@@ -176,9 +178,9 @@ function Home() {
           your vision to life.
         </p>
 
-        <a href="/contact" className="hero-btn">
-          GET A FREE QUOTATION
-        </a>
+        <Link to="/contact" className="hero-btn">
+         GET A FREE QUOTATION
+        </Link>
       </section>
     </>
   );
