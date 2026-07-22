@@ -136,8 +136,8 @@ function Projects() {
     },
     {
       title: "Minimalist Open Closet",
-      category: "Bedroom Furniture",
       image: MinimalistOpenCloset,
+      description: "A contemporary storage solution featuring open shelving, hanging rails, and spacious compartments—crafted to bring simplicity, elegance, and effortless organization to your home."
     },
     {
       title: "Black Chest of Drawers",
@@ -169,8 +169,6 @@ function Projects() {
     {
       title: "The Mocha Headboard",
       image: CreamCoffeeHeadboardBedroom,
-      description:
-        "A contemporary storage solution featuring open shelving, hanging rails, and spacious compartments—crafted to bring simplicity, elegance, and effortless organization to your home.",
     },
     {
       title: "Commercial Reception Bench",
