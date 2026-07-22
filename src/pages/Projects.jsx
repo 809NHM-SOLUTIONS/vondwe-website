@@ -89,14 +89,12 @@ function Projects() {
   const galleryItems = [
     {
       title: "The Mocha Headboard",
-      category: "Bedroom Furniture",
       image: Headboard,
       description:
         "Warm, timeless, and inviting—The Mocha Headboard transforms the bedroom into a sanctuary of comfort.",
     },
     {
       title: "The Grace Pulpit",
-      category: "Church Furniture",
       image: Pulpit,
       description:
         "Crafted with purpose and reverence, The Grace Pulpit stands as a timeless centerpiece for worship and ministry.",

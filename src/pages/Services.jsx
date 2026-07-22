@@ -36,7 +36,7 @@ function Services() {
   category: "Bedroom Storage",
   image: BrownWardrobe,
   text:
-    "Named in honour of Billy Makungo—the foundation of the Vondwe legacy—the Billy Legacy Wardrobe represents strength, craftsmanship, and enduring family values. Featuring a timeless design with spacious compartments and elegant drawers, this wardrobe is crafted to serve generations to come. Just as Billy laid the foundation for the family business, this piece is built to stand the test of time, bringing beauty, functionality, and heritage into every home.",
+    "Named in honour of Billy Makungo—the torchbearer of the Vondwe legacy—the Billy Legacy Wardrobe represents strength, craftsmanship, and enduring family values. Featuring a timeless design with spacious compartments and elegant drawers, this wardrobe is crafted to serve generations to come. Just as Billy carried the family legacy forward, this piece is built to stand the test of time, bringing beauty, functionality, and heritage into every home.",
 },
   {
     title: "THE JOSIAS COLLECTION (Opening Doors Since 1965)",
