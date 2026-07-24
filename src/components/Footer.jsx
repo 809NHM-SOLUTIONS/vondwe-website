@@ -1,5 +1,10 @@
 import { Link } from "react-router-dom";
-import { FaWhatsapp, FaTiktok } from "react-icons/fa";
+import {
+  FaWhatsapp,
+  FaTiktok,
+  FaInstagram,
+  FaFacebook,
+} from "react-icons/fa";
 
 import Logo from "../Images/Home/logo.png";
 
@@ -20,25 +25,43 @@ function Footer() {
             durable woodwork designed to last.
           </p>
 
-         <div className="footer-socials">
-  <a
-    href="https://wa.me/27703013274"
-    target="_blank"
-    rel="noopener noreferrer"
-    aria-label="WhatsApp"
-  >
-    <FaWhatsapp />
-  </a>
+          <div className="footer-socials">
+            <a
+              href="https://wa.me/27703013274"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="WhatsApp"
+            >
+              <FaWhatsapp />
+            </a>
 
-  <a
-    href="https://www.tiktok.com/@vondwe.woodwork.j5"
-    target="_blank"
-    rel="noopener noreferrer"
-    aria-label="TikTok"
-  >
-    <FaTiktok />
-  </a>
-</div>
+            <a
+              href="https://www.instagram.com/vondwewoodwork?utm_source=qr"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+            >
+              <FaInstagram />
+            </a>
+
+            <a
+              href="https://www.facebook.com/share/1HV58Aji8Z/?mibextid=wwXIfr"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Facebook"
+            >
+              <FaFacebook />
+            </a>
+
+            <a
+              href="https://www.tiktok.com/@vondwe.woodwork.j5"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="TikTok"
+            >
+              <FaTiktok />
+            </a>
+          </div>
         </div>
 
         {/* QUICK LINKS */}
@@ -71,7 +94,7 @@ function Footer() {
           <div className="footer-contact-item">
             <span>LOCATION</span>
             <p>
-              Number 16 R 523 Road
+              Number 16 R523 Road
               <br />
               Vondwe Village, Vhembe
               <br />
@@ -81,7 +104,11 @@ function Footer() {
 
           <div className="footer-contact-item">
             <span>PHONE & WHATSAPP</span>
-            <a href="https://wa.me/27703013274">
+            <a
+              href="https://wa.me/27703013274"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               +27 70 301 3274
             </a>
           </div>

@@ -1,6 +1,11 @@
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import { FaTiktok, FaWhatsapp } from "react-icons/fa6";
+import {
+  FaTiktok,
+  FaWhatsapp,
+  FaInstagram,
+  FaFacebook,
+} from "react-icons/fa6";
 
 function Contact() {
   const form = useRef();
@@ -18,10 +23,13 @@ function Contact() {
       .then(
         () => {
           alert("Enquiry sent successfully!");
-          form.current.reset();
+
+          if (form.current) {
+            form.current.reset();
+          }
         },
         (error) => {
-          console.error(error);
+          console.error("EmailJS error:", error);
           alert("Failed to send enquiry. Please try again.");
         }
       );
@@ -31,10 +39,12 @@ function Contact() {
     <main className="contact-page">
       <section className="contact-hero">
         <p className="small-title">CONTACT US</p>
-        <h1>Let's Build Something Exceptional Together</h1>
+
+        <h1>Let Us Build Something Exceptional Together</h1>
+
         <p>
           Whether you need custom furniture, kitchen units, built-in cupboards,
-          office furniture, or joinery solutions, we're ready to help.
+          office furniture, or joinery solutions, we are ready to help.
         </p>
       </section>
 
@@ -43,7 +53,7 @@ function Contact() {
           <h2>Get In Touch</h2>
 
           <div className="contact-item">
-            <h3>Phone & WhatsApp</h3>
+            <h3>Phone and WhatsApp</h3>
             <p>+27 70 301 3274</p>
           </div>
 
@@ -54,9 +64,12 @@ function Contact() {
 
           <div className="contact-item">
             <h3>Business Address</h3>
+
             <p>
-              Number 16 R 523 Road <br />
-              Vondwe Village, Vhembe <br />
+              Number 16 R523 Road
+              <br />
+              Vondwe Village, Vhembe
+              <br />
               Limpopo, 0972
             </p>
           </div>
@@ -69,6 +82,24 @@ function Contact() {
               aria-label="WhatsApp"
             >
               <FaWhatsapp />
+            </a>
+
+            <a
+              href="https://www.instagram.com/vondwewoodwork?utm_source=qr"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+            >
+              <FaInstagram />
+            </a>
+
+            <a
+              href="https://www.facebook.com/share/1HV58Aji8Z/?mibextid=wwXIfr"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Facebook"
+            >
+              <FaFacebook />
             </a>
 
             <a
@@ -86,17 +117,38 @@ function Contact() {
           <h2>Request a Quote</h2>
 
           <form ref={form} onSubmit={sendEmail} className="contact-form">
-            <input type="text" name="user_name" placeholder="Full Name" required />
-            <input type="email" name="user_email" placeholder="Email Address" required />
-            <input type="tel" name="user_phone" placeholder="Phone Number" />
-            <input type="text" name="service" placeholder="Service Required" />
+            <input
+              type="text"
+              name="user_name"
+              placeholder="Full Name"
+              required
+            />
+
+            <input
+              type="email"
+              name="user_email"
+              placeholder="Email Address"
+              required
+            />
+
+            <input
+              type="tel"
+              name="user_phone"
+              placeholder="Phone Number"
+            />
+
+            <input
+              type="text"
+              name="service"
+              placeholder="Service Required"
+            />
 
             <textarea
               name="message"
               rows="6"
               placeholder="Tell us about your project..."
               required
-            ></textarea>
+            />
 
             <button type="submit">SEND ENQUIRY</button>
           </form>
@@ -105,9 +157,10 @@ function Contact() {
 
       <section className="contact-bottom-cta">
         <h2>Quality Craftsmanship Since 1965</h2>
+
         <p>
-          Contact Vondwe Woodwork & Joinery  today and let us bring
-          your vision to life with quality workmanship and professional service.
+          Contact Vondwe Woodwork and Joinery today and let us bring your vision
+          to life with quality workmanship and professional service.
         </p>
       </section>
     </main>
