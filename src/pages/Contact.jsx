@@ -58,7 +58,8 @@ function Contact() {
           <div className="contact-item">
             <h3>Phone and WhatsApp</h3>
             <p>+27 70 301 3274</p>
-            <p>+27 76 065 0762 (Rachel)</p>
+            <p>+27 76 065 0762 (Rachel M)</p>
+            <p>+27 73 796 4888 (Makungo V)</p>
           </div>
 
           {/* Email */}
