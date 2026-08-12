@@ -37,6 +37,7 @@ function Contact() {
 
   return (
     <main className="contact-page">
+      {/* Hero Section */}
       <section className="contact-hero">
         <p className="small-title">CONTACT US</p>
 
@@ -48,20 +49,27 @@ function Contact() {
         </p>
       </section>
 
+      {/* Contact Section */}
       <section className="contact-container">
         <div className="contact-info">
           <h2>Get In Touch</h2>
 
+          {/* Phone */}
           <div className="contact-item">
             <h3>Phone and WhatsApp</h3>
             <p>+27 70 301 3274</p>
+            <p>+27 76 065 0762 (Rachel)</p>
           </div>
 
+          {/* Email */}
           <div className="contact-item">
             <h3>Email</h3>
             <p>info@vondwewoodworks.co.za</p>
+            <p>RachelM@vondwewoodwork.co.za</p>
+            <p>MakungoV@vondwewoodwork.co.za</p>
           </div>
 
+          {/* Address */}
           <div className="contact-item">
             <h3>Business Address</h3>
 
@@ -74,9 +82,10 @@ function Contact() {
             </p>
           </div>
 
+          {/* Social Media */}
           <div className="contact-socials">
             <a
-              href="https://wa.me/27703013274"
+              href="https://wa.me/27760650762"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="WhatsApp"
@@ -113,6 +122,7 @@ function Contact() {
           </div>
         </div>
 
+        {/* Contact Form */}
         <div className="contact-form-container">
           <h2>Request a Quote</h2>
 
@@ -155,12 +165,13 @@ function Contact() {
         </div>
       </section>
 
+      {/* Bottom CTA */}
       <section className="contact-bottom-cta">
         <h2>Quality Craftsmanship Since 1965</h2>
 
         <p>
-          Contact Vondwe Woodwork and Joinery today and let us bring your vision
-          to life with quality workmanship and professional service.
+          Contact Vondwe Woodwork and Joinery today and let us bring your
+          vision to life with quality workmanship and professional service.
         </p>
       </section>
     </main>
