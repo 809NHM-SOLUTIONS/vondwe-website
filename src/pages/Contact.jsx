@@ -58,16 +58,16 @@ function Contact() {
           <div className="contact-item">
             <h3>Phone and WhatsApp</h3>
             <p>+27 70 301 3274</p>
-            <p>+27 76 065 0762 (Rachel M)</p>
-            <p>+27 73 796 4888 (Makungo V)</p>
+            <p>+27 76 065 0762 (Ralinala)</p>
+            <p>+27 73 796 4888 (Makungo)</p>
           </div>
 
           {/* Email */}
           <div className="contact-item">
             <h3>Email</h3>
             <p>info@vondwewoodworks.co.za</p>
-            <p>RachelM@vondwewoodwork.co.za</p>
-            <p>MakungoV@vondwewoodwork.co.za</p>
+            <p>RachelM@vondwewoodworks.co.za</p>
+            <p>MakungoV@vondwewoodworks.co.za</p>
           </div>
 
           {/* Address */}

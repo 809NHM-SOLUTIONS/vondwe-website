@@ -12,6 +12,7 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer-container">
+
         {/* BRAND */}
         <div className="footer-brand">
           <img
@@ -25,9 +26,10 @@ function Footer() {
             durable woodwork designed to last.
           </p>
 
+          {/* SOCIAL MEDIA */}
           <div className="footer-socials">
             <a
-              href="https://wa.me/27703013274"
+              href="https://wa.me/27760650762"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="WhatsApp"
@@ -91,8 +93,10 @@ function Footer() {
         <div className="footer-column footer-contact">
           <h3>Contact Us</h3>
 
+          {/* LOCATION */}
           <div className="footer-contact-item">
             <span>LOCATION</span>
+
             <p>
               Number 16 R523 Road
               <br />
@@ -102,8 +106,10 @@ function Footer() {
             </p>
           </div>
 
+          {/* PHONE */}
           <div className="footer-contact-item">
             <span>PHONE & WHATSAPP</span>
+
             <a
               href="https://wa.me/27703013274"
               target="_blank"
@@ -111,28 +117,58 @@ function Footer() {
             >
               +27 70 301 3274
             </a>
-          </div>
 
-          <div className="footer-contact-item">
-            <span>EMAIL</span>
-            <a href="mailto:info@vondwewoodworks.co.za">
-              info@vondwewoodworks.co.za
+            <a
+              href="https://wa.me/27760650762"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              +27 76 065 0762 (Ralinala)
+            </a>
+
+            <a
+              href="https://wa.me/27737964888"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              +27 73 796 4888 (Makungo)
             </a>
           </div>
 
+          {/* EMAIL */}
+          <div className="footer-contact-item">
+            <span>EMAIL</span>
+
+            <a href="mailto:info@vondwewoodworks.co.za">
+              info@vondwewoodworks.co.za
+            </a>
+
+            <a href="mailto:RachelM@vondwewoodworks.co.za">
+              RachelM@vondwewoodworks.co.za
+            </a>
+
+            <a href="mailto:MakungoV@vondwewoodworks.co.za">
+              MakungoV@vondwewoodworks.co.za
+            </a>
+          </div>
+
+          {/* REQUEST QUOTE */}
           <Link to="/contact" className="footer-contact-button">
             Request a Quote
           </Link>
         </div>
       </div>
 
+      {/* FOOTER BOTTOM */}
       <div className="footer-bottom">
         <p>
           © {new Date().getFullYear()} Vondwe Woodwork & Joinery. All Rights
           Reserved.
         </p>
 
-        <span>Strong Roots. Skilled Hands. Lasting Legacy.</span>
+        <span>
+          Strong Roots. Skilled Hands. Lasting Legacy.
+        </span>
       </div>
     </footer>
   );
