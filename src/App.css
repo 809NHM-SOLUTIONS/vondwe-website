@@ -1960,6 +1960,27 @@ blockquote {
   letter-spacing: 1.5px;
 }
 
+
+/* Website Design Credit */
+.website-credit {
+  margin: 8px 0 0;
+  font-size: 13px;
+  color: #bdbdbd;
+  text-align: center;
+}
+
+.website-credit a {
+  color: inherit;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.website-credit a:hover {
+  color: #c9a15b;
+  text-decoration: underline;
+}
+
 @media (max-width: 1000px) {
   .footer-container {
     grid-template-columns: repeat(2, 1fr);

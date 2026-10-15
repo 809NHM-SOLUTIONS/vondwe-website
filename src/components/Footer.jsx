@@ -85,7 +85,7 @@ function Footer() {
           <span>Kitchen Cabinets</span>
           <span>Built-in Wardrobes</span>
           <span>Custom Furniture</span>
-          <span>Doors & Joinery</span>
+          <span>Doors &amp; Joinery</span>
           <span>Office Furniture</span>
         </div>
 
@@ -106,9 +106,9 @@ function Footer() {
             </p>
           </div>
 
-          {/* PHONE */}
+          {/* PHONE & WHATSAPP */}
           <div className="footer-contact-item">
-            <span>PHONE & WHATSAPP</span>
+            <span>PHONE &amp; WHATSAPP</span>
 
             <a
               href="https://wa.me/27703013274"
@@ -152,7 +152,7 @@ function Footer() {
             </a>
           </div>
 
-          {/* REQUEST QUOTE */}
+          {/* REQUEST A QUOTE */}
           <Link to="/contact" className="footer-contact-button">
             Request a Quote
           </Link>
@@ -162,13 +162,26 @@ function Footer() {
       {/* FOOTER BOTTOM */}
       <div className="footer-bottom">
         <p>
-          © {new Date().getFullYear()} Vondwe Woodwork & Joinery. All Rights
-          Reserved.
+          © {new Date().getFullYear()} Vondwe Woodwork &amp; Joinery.
+          All Rights Reserved.
         </p>
 
         <span>
           Strong Roots. Skilled Hands. Lasting Legacy.
         </span>
+
+        {/* WEBSITE DESIGN CREDIT */}
+        <p className="website-credit">
+          Website designed by{" "}
+          <a
+            href="https://vhutheluresources.co.za/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Visit Vhuthelu Resources website"
+          >
+            Vhuthelu Resources
+          </a>
+        </p>
       </div>
     </footer>
   );
